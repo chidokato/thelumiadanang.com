@@ -41,11 +41,11 @@ class HomeController extends Controller
     public function index()
     {
         $slider = Slider::orderBy('id', 'desc')->get();
-        $canho = Section::where('post_id', '701')->get();
+        $news = Post::where('sort_by', 'News')->get();
 
         return view('pages.home', compact(
             'slider',
-            'canho',
+            'news',
 
         ));
     }

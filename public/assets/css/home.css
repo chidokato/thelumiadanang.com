@@ -367,9 +367,8 @@ input:focus::placeholder{opacity: 1 !important;}
 .apartment .apartment-slider{ width:90%; margin:2rem auto; }
 .apartment .swiper{ padding-top:3rem }
 .apartment .swiper-slide{ background: linear-gradient(135deg, #00c5c1, #00574d); color:#fff; border-radius:40px }
-.apartment .apartment-slider .card-s .card-body{ background:none; padding: 15px 30px 30px 30px; border:none; box-shadow:none; }
+.apartment .apartment-slider .card-s .card-body{  }
 .apartment .apartment-slider .card-s span{ background:#003f33; margin:25px; border-radius:35px; padding: 20px; height:350px }
-.apartment .apartment-slider .card-s span img{ position:relative; top:-65px }
 .apartment .apartment-slider .card-info{ color:#fff; font-weight:300 }
 .apartment .apartment-slider tr{ display: flex;justify-content: space-between; color:#fff;     border: none; padding: 0; }
 .apartment .apartment-slider table{  width:100% }
@@ -385,8 +384,8 @@ input:focus::placeholder{opacity: 1 !important;}
     background: #fff;
 }
 .apartment .apartment-slider .card>img{transform: scale(1.2);}
-.apartment .card-s .card-title{ margin-bottom:1rem }
-.apartment .card-s .card-title span{ font-weight:300; font-size:1.2rem; border-radius:20px; border:1px solid #fff; width:auto; background:none; padding:10px 20px; margin:0 }
+.apartment .card-s .card-title{ margin-bottom:1rem; color:#000; font-size:1.2rem; font-weight:300 }
+.apartment .card-s .card-title span{ font-weight:300; font-size:1.2rem; border-radius:20px; border:1px solid #fff; width:auto; background:none; padding:10px 20px; margin:0; color:#000 }
 .apartment .button{ text-align:right; }
 .apartment .button button{background: linear-gradient(to bottom right, #3b7384, #52aa74); color: #fff; font-size: 1.5rem; padding: 1.4rem; font-weight: bold;}
 

@@ -164,7 +164,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="title gradient-text mb-4">
-                    THE LUMIA ĐÀ NẴNG <br> <span>KHU ĐÔ THỊ SINH THÁI THÔNG MINH GIỮA LÒNG THÀNH PHỐ BIỂN</span>
+                    THE LUMIA ĐÀ NẴNG <br> <span>ĐẠI ĐÔ THỊ SỐNG - ĐIỂM ĐẾN - NGHỈ DƯỠNG QUY MÔ LỚN NHẤT KHU VỰC</span>
                 </div>
             </div>
             <div class="col-md-6">
@@ -230,6 +230,42 @@
                 </div>
                 <div class="img">
                     <img src="assets/images/matbang.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="apartment">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="gradient-text"> TIN TỨC </h2>
+
+                <div class="apartment-slider">
+                    <div class="position-relative grid-view">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                @foreach($news as $val)
+                                <div class="swiper-slide">
+                                    <div class="col">
+                                        <div class="card card-s card-s4 ">
+                                            <a href="{{$val->category->slug}}/{{$val->slug}}">
+                                                <img src="data/images/{{$val->img}}" >
+                                            </a>
+                                            <div class="card-body">
+                                                <div class="card-body-wrap">
+                                                    <a href="{{$val->category->slug}}/{{$val->slug}}"><h5 class="card-title">{{$val->name}}</h5></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                @endforeach
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
