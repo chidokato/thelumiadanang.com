@@ -365,7 +365,8 @@
                     <div class="logo"><img src="assets/imgs/logo.png"></div>
                     <div class="title-gradient"> THÔNG TIN LIÊN HỆ </div>
                     <h5 class="mt-2">ĐỊA CHỈ</h5>
-                    <p>Nhà mẫu & VPBH dự án: Căn BT B3-06-962, dự án The Lumia Da Nang</p>
+                    <p>Địa chỉ dự án: Đường số 5, phường Hải Vân, quận Liên Chiểu, TP Đà Nẵng</p>
+                    <p>Địa chỉ Nhà mẫu & VPBH dự án: Căn BT B3-06-962, dự án The Lumia Da Nang</p>
                     <h5 class="mt-4">HOTLINE</h5>
                     <h5>{{$setting->hotline}}</h5>
                     <h5 class="mt-4">EMAIL</h5>
@@ -415,6 +416,8 @@
         controlArrows: true,
         loopHorizontal: false, 
         scrollHorizontally: true,
+
+        responsiveWidth: 768, // dưới 768px sẽ tự động destroy fullPage.js
 
 });
 </script>
