@@ -1,0 +1,376 @@
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	background: white;
+}
+
+#section0,
+#section1,
+#section2,
+#section3, #section5, #section4, #section6,
+#slide1,
+#slide2{
+	background-size: cover;
+	background-attachment: fixed;
+}
+#section0{
+	background-image: url(imgs/trang-dau.png);
+}
+#section1{
+	background-image: url(imgs/trang-2.png);
+}
+#section2 {
+  background-color: #181e4d !important;
+  background-image: url(imgs/Artboard-9.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: bottom center;
+}
+#section3 {
+  background-color: #181e4d !important;
+  background-image: url(imgs/vitri.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: bottom center;
+}
+#section5, #section4, #section6, .matbang, #section10, #section11, #section12 {
+  background-image: url(imgs/bg.png);
+}
+#section7{ background-image: url(imgs/Artboard82.png); }
+#section8{
+  background-image: url(imgs/bg1.png);
+  background-position: center center; /* Căn giữa */
+  background-repeat: no-repeat;       /* Không lặp */
+  background-size: cover; 
+}
+
+.section1 .fp-overflow,
+.section2 .fp-overflow,
+.vitri .fp-overflow{ display:flex; }
+
+
+.section0{padding-top:10rem }
+
+.section1{ padding-top:10rem; padding-left:20rem }
+.section1 .img img{ height:250px }
+
+.section2{padding-left:20rem; padding-top:5rem }
+
+.row-tongquan{ background:#fff;}
+.row-tongquan h2{  }
+.row-tongquan ul{  }
+.row-tongquan ul li{  }
+
+.vitri{ position:relative; }
+.row-vitri{ width:500px; top:5rem; position:absolute; right:5rem }
+.row-vitri p{ color:#fff; font-size:1rem; text-align:justify; margin-bottom:2rem; line-height:1.4rem }
+.row-vitri img{ height:130px; margin-bottom:2rem; }
+.row-vitri .img{ text-align:right; }
+
+.tienich .row-tienich{
+	height: 100vh;     
+	display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.tienich .row-tienich .img{
+	display:flex;
+	align-items: flex-end; 
+	margin-bottom: 2rem;
+}
+.tienich .row-tienich .img div{
+	margin-left: -100px;
+}
+.tienich .row-tienich .img h4{ font-weight:bold; }
+.tienich .row-tienich .img h4, .tienich .row-tienich .img h5{
+	font-size: 2rem;
+	color: #fff;
+	font-style: italic;
+    letter-spacing: .4rem;
+}
+
+.tienich .row-tienich .info{
+	color: #fff;
+	font-size: .6rem;
+	text-align: justify;
+	font-style: italic;
+      display: flex;    flex-direction: column;
+          align-items: flex-end;
+}
+
+.lienketvung{ position:relative; }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.mySwiper2 {
+  height: 100vh;
+  width: 100%;
+}
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 60%;
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    margin: auto;    bottom: 0;
+}
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.mySwiper2 .swiper-slide img{ height:100vh !important }
+
+.swiper-slide img {
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+      margin: auto;
+}
+/* Ẩn icon mặc định */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+}
+
+/* Thêm ảnh cho nút Next */
+.mySwiper2 .custom-next {
+    width: 60px;      /* kích thước tùy chỉnh */
+    height: 60px;
+    background: url('imgs/next.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    right: 15rem !important;
+    bottom: 89px;
+    top: auto !important;
+}
+
+/* Thêm ảnh cho nút Prev */
+.mySwiper2 .custom-prev {
+    width: 60px;
+    height: 60px;
+    background: url('imgs/prev.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    bottom: 89px;
+    top: auto !important;
+    left: 15rem !important;
+}
+
+/* Cột marquee chung */
+.vertical-marquee {
+  width: 100%;
+  height: 100vh; /* hoặc chiều cao bạn muốn */
+  overflow: hidden;
+  position: relative;
+}
+
+/* Nội dung marquee */
+.marquee-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Item */
+.marquee-content > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: .7rem 0;
+}
+
+/* Animation chạy lên */
+.marquee-up .marquee-content {
+  animation: scroll-up 20s linear infinite;
+}
+
+/* Animation chạy xuống */
+.marquee-down .marquee-content {
+  animation: scroll-down 20s linear infinite;
+}
+
+/* Keyframes chạy lên */
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+/* Keyframes chạy xuống */
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.matbang .desc{ margin-top:1rem }
+.matbang .desc ol{ padding-left:2.5rem }
+.matbang .desc ol li{ color:#fff;     list-style: auto; text-align:left; line-height:2rem }
+
+.section7 .fp-overflow{ display:flex;justify-content: center; }
+.section7 p{ color: #fff; font-size:1.3rem; font-weight:bold; text-align:left; }
+.section7 .section71{ display: flex; justify-content: center; align-items: flex-end; margin:2rem 0 }
+.section7 .section71 p{ margin:0;line-height: 1rem; margin-top: .8rem; }
+.section7 .col-md-6{ display:flex;     justify-content: center; align-items: flex-end; }
+.section7 .col-md-4{ display:flex;     justify-content: center; align-items: center; }
+.section711{
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid #fff;
+  padding-bottom: .6rem;
+  align-items: flex-end;
+}
+
+
+
+.Swiper-matbang {
+  width: 100%;
+  height: 100%;
+}
+
+.Swiper-matbang .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Swiper-matbang .swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.matbang .imgs{ width:70%; margin:0 auto; }
+
+/* Thêm ảnh cho nút Next */
+.matbang1{ position:relative; }
+.custom-next-matbang {
+    width: 60px;      
+    height: 60px;
+    background: url('imgs/next.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+      right: -8rem;
+    transform: translateY(-50%);
+}
+
+
+.loithe{ position:relative; }
+.loithe:before{
+  content: url('imgs/Artboard150.png');
+  position: absolute;
+  bottom: 0;
+
+}
+.loithe .Swiper-matbang .swiper-slide{ display:flex;    flex-direction: column;
+    align-items: flex-start; }
+.loithe .Swiper-matbang .swiper-slide h4{ color:#fff; font-size:1.8rem }
+.loithe .Swiper-matbang .swiper-slide p{ font-size:1rem; text-align:justify; }
+.loithe .loithe1{ display:flex;align-items: center; }
+.loithe {
+    justify-content: flex-start;
+}
+.loithe1 img{ width:100% }
+.loithe .matbang1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.width120{ width:120% !important }
+
+.loithe .custom-next-matbang {
+    width: 50px;      
+    height: 60px;
+    right: -5rem;
+}
+
+.tintuc .col-md-3 .img{ height: 100%; display: flex;justify-content: flex-end; padding-right: 2rem;align-items: center;}
+.tintuc .col-md-3 img{ height:80% }
+.tintuc .col-md-4 img{ height:80vh; width:100%; object-fit:cover; }
+.tintuc .col-md-4 .img{
+  position: relative; /* quan trọng để pseudo-element bám vào */
+  display: inline-block; /* nếu cần ảnh không bị chiếm full width */ 
+}
+.tintuc .col-md-4 .img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000047; /* màu đen mờ, chỉnh opacity ở đây */
+}
+
+.tintuc1{ position:relative; }
+.tintuc1 .tintuc11{ color:#fff; position:absolute; z-index:9999; width:80%; left: 50%;
+  transform: translateX(-50%); text-align:justify; line-height:1.7rem  }
+.tintuc1 h3{ top:4rem; font-size:1.2rem; font-weight:bold; }
+.tintuc1 .date-text{ bottom:4rem; display:flex;     justify-content: space-between;     align-items: flex-end; }
+.tintuc1 .date-text .ngay{ font-size:6rem;     line-height: 5rem; }
+.tintuc1 .date-text .thang{ font-size:1.5rem; }
+
+.lienhe .logo img{ height:180px; margin-bottom:2rem }
+.lienhe h5{ color:#fff; font-size:2rem }
+.lienhe p{ font-size:1rem; color:#fff }
+
+.lienhe .form{ display:flex; justify-content: center; }
+.lienhe .form input, .lienhe .form button{ border:1px solid #97d7df; border-radius: 30px; background:none; padding:10px; margin:0px 20px; color:#fff }
+.lienhe .form button{  }
+
+
+.lienhe .form button {
+  background: linear-gradient(
+    90deg,
+    #C1E3F7 0%,
+    #95D6DE 35%,
+    #A7D8BD 65%,
+    #F9B9A0 100%
+  );
+  color: #ffffff;            /* Chữ trắng dễ nhìn */
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-size: 1.5rem;
+}
+
+
+.fp-controlArrow {
+  display: none !important;
+}
+
