@@ -367,9 +367,9 @@
                     <h5 class="mt-2">ĐỊA CHỈ</h5>
                     <p>Nhà mẫu & VPBH dự án: Căn BT B3-06-962, dự án The Lumia Da Nang</p>
                     <h5 class="mt-4">HOTLINE</h5>
-                    <h5>099 999 999</h5>
+                    <h5>{{$setting->hotline}}</h5>
                     <h5 class="mt-4">EMAIL</h5>
-                    <p>lumidanang@gmail.com</p>
+                    <p>{{$setting->email}}</p>
                     <div class="title-gradient mt-5"> ĐĂNG KÝ NHẬN TƯ VẤN </div>
                     <hr class="line1">
                     <hr class="line2">
