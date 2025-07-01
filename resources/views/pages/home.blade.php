@@ -4,7 +4,7 @@
 @section('description') {{$setting->description}} @endsection
 @section('robots'){{'index, follow'}}@endsection
 @section('url'){{asset('')}}@endsection
-@section('img'){{asset('')}}{{'data/images/logo_-01.png'}}@endsection
+@section('img'){{asset('')}}{{'assets/imgs/avata.jpg'}}@endsection
 
 @section('css')
 
