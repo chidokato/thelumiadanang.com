@@ -14,7 +14,7 @@
 @section('content')
 
 <div id="fullpage">
-    <!-- <div class="section section0 flex-start" id="section0">
+    <div class="section section0 flex-start" id="section0">
         <div class="img mb-3">
             <img src="assets/imgs/logo.png">
         </div>
@@ -27,7 +27,7 @@
         <div class="img">
             <img src="assets/imgs/text-2.png">
         </div>
-    </div> -->
+    </div>
 
     <div class="section section2 flex-start" id="section2">
         <div class="container">
