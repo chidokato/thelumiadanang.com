@@ -42,6 +42,49 @@
   background-size: cover; 
 }
 
+.row-tongquan{
+  background: linear-gradient(
+  to bottom,
+  #283790 0%,
+  rgba(40, 55, 144, 0) 100%
+);
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: left;
+}
+.row-tongquan h2{
+  font-size: 3.5rem;
+  font-weight: bold;
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    #C1E3F7 0%,
+    #95D6DE 35%,
+    #A7D8BD 65%,
+    #F9B9A0 100%
+  );
+  background-size: 100%; /* Gradient trải đều độ rộng chữ */
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.row-tongquan ul{  }
+.row-tongquan ul li{ text-align:left; color:#fff; font-size:1.3rem; position:relative; padding-left:20px; margin-bottom:1rem }
+.row-tongquan ul li:after {
+  content: url('imgs/icon-li.png');
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.row-tongquan ul li strong{
+  color: #66cce3;
+  font-weight: bold;
+}
+
+
 .section1 .fp-overflow,
 .section2 .fp-overflow,
 .vitri .fp-overflow{ display:flex; }
@@ -52,12 +95,9 @@
 .section1{ padding-top:10rem; padding-left:20rem }
 .section1 .img img{ height:250px }
 
-.section2{padding-left:20rem; padding-top:5rem }
+.section2{padding-top:5rem }
 
-.row-tongquan{ background:#fff;}
-.row-tongquan h2{  }
-.row-tongquan ul{  }
-.row-tongquan ul li{  }
+
 
 .vitri{ position:relative; }
 .row-vitri{ width:500px; top:5rem; position:absolute; right:5rem }

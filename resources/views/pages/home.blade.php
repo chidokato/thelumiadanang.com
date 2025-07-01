@@ -14,7 +14,7 @@
 @section('content')
 
 <div id="fullpage">
-    <div class="section section0 flex-start" id="section0">
+    <!-- <div class="section section0 flex-start" id="section0">
         <div class="img mb-3">
             <img src="assets/imgs/logo.png">
         </div>
@@ -27,20 +27,28 @@
         <div class="img">
             <img src="assets/imgs/text-2.png">
         </div>
-    </div>
+    </div> -->
 
     <div class="section section2 flex-start" id="section2">
-        <div class="row-tongquan">
-            <h2>TỔNG QUAN DỰ ÁN</h2>
-            <ul>
-                <li><strong>Chủ đầu tư:</strong> Công ty Cổ phần Đầu tư Sài Gòn – Đà Nẵng</li>
-                <li><strong>Tổng đại lý & Phát triển kinh doanh:</strong> <br> Công ty Cổ phần VietnamHomes Group</li>
-                <li><strong>Vị trí:</strong> Đường Nguyễn Tất Thành nối dài, Q.Liên Chiểu, TP. Đà Nẵng</li>
-                <li><strong>Quy mô:</strong> 69.87 hecta <br>Đã được cấp Giấy chứng nhận đăng ký đầu tư với tổng mức đầu tư là 655,22 tỷ đồng</li>
-                <li><strong>Loại hình:</strong> Biệt thự - Nhà phố - Liền kề - Chung cư</li>
-                <li><strong>Pháp lý:</strong> Sở hữu lâu dài</li>
-            </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                    <div class="row-tongquan">
+                        <h2>TỔNG QUAN DỰ ÁN</h2>
+                        <ul>
+                            <li><strong>Chủ đầu tư:</strong> Công ty Cổ phần Đầu tư Sài Gòn – Đà Nẵng</li>
+                            <li><strong>Tổng đại lý & Phát triển kinh doanh:</strong> <br> Công ty Cổ phần VietnamHomes Group</li>
+                            <li><strong>Vị trí:</strong> Đường Nguyễn Tất Thành nối dài, Q.Liên Chiểu, TP. Đà Nẵng</li>
+                            <li><strong>Quy mô:</strong> 69.87 hecta <br>Đã được cấp Giấy chứng nhận đăng ký đầu tư với tổng mức đầu tư là 655,22 tỷ đồng</li>
+                            <li><strong>Loại hình:</strong> Biệt thự - Nhà phố - Liền kề - Chung cư</li>
+                            <li><strong>Pháp lý:</strong> Sở hữu lâu dài</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </div>
 
     <div class="section vitri flex-start" id="section3">
