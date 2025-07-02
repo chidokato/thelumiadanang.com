@@ -91,7 +91,7 @@
         <div class="slide" id="slide1">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <div class="vertical-marquee marquee-up">
                             <div class="marquee-content">
                               <div><img src="assets/imgs/tienich/tienich.png"></div>
@@ -105,7 +105,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <div class="vertical-marquee marquee-down">
                             <div class="marquee-content">
                               <div><img src="assets/imgs/tienich/tienich4.png"></div>
@@ -148,7 +148,7 @@
                             <div class="img"><img src="assets/imgs/matbang.png"></div>
                         </div>
                         <div class="col-md-3">
-                            <div class="img"><img src="assets/imgs/tienich-title.png"></div>
+                            <h2 class="title-gradient">TIỆN ÍCH</h2>
                             <div class="desc">
                                 <ol>
                                     <li>Sân chơi trẻ em</li>
@@ -198,7 +198,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="section71">
-                            <div class="section711">
+                            <div class="section711 mb-row-reverse">
                                 <img src="assets/imgs/Artboard86.png">
                                 <div><p>3 TẦNG KHAI THÁC - TỐI ĐA CÔNG NĂNG</p></div>
                             </div>
@@ -231,7 +231,7 @@
 
                     <div class="col-md-6">
                         <div class="section71">
-                            <div class="section711">
+                            <div class="section711 mb-row-reverse">
                                 <div><p>NẰM TRONG TUYẾN PHỐ</p> <p>THƯƠNG MẠI SẦM UẤT BẬC NHẤT</p></div>
                                 <img src="assets/imgs/Artboard90_1.png">
                             </div>

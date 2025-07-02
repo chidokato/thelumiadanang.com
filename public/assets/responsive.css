@@ -1,0 +1,74 @@
+@media (max-width: 767px) {
+
+.container{ max-width:100% }
+
+.fp-section {
+  min-height: auto !important;
+  height: auto !important;
+}
+
+#section0,#section1,#section2,#section3, #section5, #section4, #section6,#slide1,#slide2{background-attachment: unset;}
+
+
+.section0{
+  padding-top: 2rem; min-height:35vh !important;
+  background-position: bottom center; background-size: 100% auto !important; background-repeat: no-repeat; background-image: url(imgs/trang-dau-mobi.png) !important;
+}
+.section0 .img img{ height:60px }
+
+.section1{ padding:2rem; min-height:35vh !important; background-position: bottom center; background-size: 100% auto !important; background-repeat: no-repeat;
+  background-image: url(imgs/trang-2-mobi.jpg) !important; }
+.section1 .img img{ height:100px }
+
+.section2{ padding-top:2rem; min-height:65vh !important; }
+.row-tongquan{ padding:1rem }
+.row-tongquan h2 {font-size: 1.7rem;}
+.row-tongquan ul li { font-size: 1rem;  margin-bottom: .5rem}
+.mySwiper2 .swiper-slide img, .mySwiper2{height: 50vh !important; width: 100%;}
+.lienketvung{ min-height:50vh !important; }
+.mySwiper .swiper-slide img{ width:50px; height:50px }
+.mySwiper2 .custom-next, .mySwiper2 .custom-prev {width: 30px;     bottom: 2rem;}
+.mySwiper2 .custom-next{ right:2rem !important }
+.mySwiper2 .custom-prev{ left:2rem !important }
+
+.tienich{ padding-top:2rem; min-height:auto !important }
+.marquee-content img{ width:100%; height:auto !important; }
+.vertical-marquee{ height:40vh }
+.row-tienich img{ height:100px }
+.tienich .row-tienich .img div {
+    margin-left: -46px;
+}
+.tienich .row-tienich .img h4, .tienich .row-tienich .img h5 {
+    font-size: 1rem;
+    letter-spacing: .2rem;
+}
+.tienich .row-tienich{ height:auto; margin-top:2rem; padding-bottom:4rem }
+.row-tienich .next-slide img {
+  height: 45px;
+}
+ .slide {
+    flex: none;
+    width: 100%;
+    transform: none !important;
+    opacity: 1 !important;
+    position: static !important;
+  }
+  
+  .slide:not(:first-child) {
+    display: block;
+  }
+
+.matbang .img img{ width:100% }
+.matbang h2{ margin-top:2rem; font-size:2.4rem }
+.matbang .desc ol li{ line-height:1.4rem }
+
+.section7 p{ font-size:1rem; font-weight:100 }
+.section7 .section71 p{         margin-top: 0;
+        line-height: 1.5rem; }
+.mb-row-reverse{ flex-direction: row-reverse; }
+.section7 .section71, .section711{ width:100%;     justify-content: space-between; }
+.section7 .section71{ margin:1rem 0 }
+#section8{ height:100vh; background-position: bottom center;     background-image: url(imgs/bg1-mobi.jpg); }
+.section8{ padding-top:3rem }
+
+}
