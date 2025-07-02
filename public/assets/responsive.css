@@ -122,4 +122,6 @@ margin: 0 auto; }
 .custom-next-matbang{ right:0 }
 .loithe .custom-next-matbang{ right:0 }
 
+.button-popup{ position:fixed; bottom:2rem; right:2rem; z-index:99999999 }
+
 }

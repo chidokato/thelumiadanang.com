@@ -87,6 +87,7 @@ var swiper = new Swiper(".Swiper-matbang", {
 const button = document.querySelector('.button-popup');
 const popup = document.querySelector('.main-popup');
 const overlay = document.querySelector('.popup-overlay');
+const closeButtons = document.querySelectorAll('.close');
 
 button.addEventListener('click', function(e) {
   e.preventDefault();
@@ -99,4 +100,14 @@ overlay.addEventListener('click', function() {
   popup.classList.remove('active');
   overlay.classList.remove('active');
 });
+
+// Bấm nút close để đóng popup
+closeButtons.forEach(btn => {
+  btn.addEventListener('click', function(e) {
+    e.preventDefault(); // hủy href
+    popup.classList.remove('active');
+    overlay.classList.remove('active');
+  });
+});
+
 

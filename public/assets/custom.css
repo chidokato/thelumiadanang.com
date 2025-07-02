@@ -429,8 +429,6 @@
 .button-popup{ position:fixed; bottom:4rem; right:4rem; z-index:99999999 }
 .button-popup img{ width:90px }
 
-
-
 /* Lớp nền mờ */
 .popup-overlay {
   display: none; /* ẩn mặc định */
@@ -450,12 +448,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
-  padding: 2rem;
-  border-radius: 8px;
+  background: url('imgs/bg-popup.jpg') no-repeat center center;
+  border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
   z-index: 9999;
-  max-width: 90%;
+  width: 1000px;
 }
 
 /* Khi active */
@@ -466,5 +463,37 @@
   display: block;
 }
 
+.main-popup .content{ background:#ffffffba;padding: 3rem; border-radius: 20px 0px 0px 20px}
+.main-popup .col-md-7 .img img{ width:80%; margin-bottom:2rem }
+.main-popup .content ul{  }
+.main-popup .content ul li{ font-size:1.1rem; color:var(--main-color); position:relative; margin-bottom:.5rem }
+.main-popup .content ul li::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: -22px;
+  width: 19px;
+  height: 19px;
+  background: url('imgs/icontick.png') no-repeat center center;
+  background-size: contain; /* tự co tỉ lệ */
+}
 
-.main-popup .img img{ width:100% }
+.main-popup .col-md-5 .img img{ width:70%; margin-top:2rem }
+
+.main-popup .form{ display:flex;     flex-direction: column;     align-items: center; margin-top:2REM }
+.main-popup .form input{ background:var(--main-color); color:#fff; border-radius:10px; padding:10px; width:80%; margin-bottom:.7REM }
+
+.main-popup .form button {
+    background: linear-gradient(90deg, #C1E3F7 0%, #95D6DE 35%, #A7D8BD 65%, #F9B9A0 100%);
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 7PX;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-size: 1.5rem;
+    width: 40%;
+}
+
+.main-popup .close{ position:absolute; top:2rem; right:2rem }
