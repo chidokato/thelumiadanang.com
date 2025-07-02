@@ -12,10 +12,10 @@
 	background-attachment: fixed;
 }
 #section0{
-	background-image: url(imgs/trang-dau.png);
+	background-image: url(imgs/trang-dau.jpg);
 }
 #section1{
-	background-image: url(imgs/trang-2.png);
+	background-image: url(imgs/trang-2.jpg);
 }
 #section2 {
   background-color: #181e4d !important;
@@ -34,9 +34,9 @@
 #section5, #section4, #section6, .matbang, #section10, #section11, #section12 {
   background-image: url(imgs/bg.png);
 }
-#section7{ background-image: url(imgs/Artboard82.png); }
+#section7{ background-image: url(imgs/Artboard82.jpg); }
 #section8{
-  background-image: url(imgs/bg1.png);
+  background-image: url(imgs/bg1.jpg);
   background-position: center center; /* Căn giữa */
   background-repeat: no-repeat;       /* Không lặp */
   background-size: cover; 
@@ -322,6 +322,7 @@
 }
 
 .matbang .imgs{ width:70%; margin:0 auto; }
+.matbang .img img{ border-radius:50px }
 
 /* Thêm ảnh cho nút Next */
 .matbang1{ position:relative; }

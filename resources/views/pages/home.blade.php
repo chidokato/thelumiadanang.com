@@ -145,7 +145,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-9">
-                            <div class="img"><img src="assets/imgs/matbang.png"></div>
+                            <div class="img"><img src="assets/imgs/matbang.jpg"></div>
                         </div>
                         <div class="col-md-3">
                             <h2 class="title-gradient">TIỆN ÍCH</h2>
