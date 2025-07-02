@@ -394,32 +394,34 @@
 @section('js')
 
 <script>
-    var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-        anchors: [
-            @foreach($menu as $val)
-            '{{$val->slug}}',
-            @endforeach
-        ],
-        navigation:true,
-        navigationTooltips: [
-            @foreach($menu as $val)
-            '{{$val->name}}',
-            @endforeach
-        ],
-        showActiveTooltip: true,
-        navigationPosition: 'left',
-        // menu: '#menu',
-        css3:false,
-        slidesNavigation: true, // Bật dấu chấm slide
-        slidesNavPosition: 'bottom', // Vị trí dấu chấm: bottom hoặc top
-        controlArrows: true,
-        loopHorizontal: false, 
-        scrollHorizontally: true,
+    if (window.innerWidth > 768) {
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+            anchors: [
+                @foreach($menu as $val)
+                '{{$val->slug}}',
+                @endforeach
+            ],
+            navigation:true,
+            navigationTooltips: [
+                @foreach($menu as $val)
+                '{{$val->name}}',
+                @endforeach
+            ],
+            showActiveTooltip: true,
+            navigationPosition: 'left',
+            // menu: '#menu',
+            css3:false,
+            slidesNavigation: true, // Bật dấu chấm slide
+            slidesNavPosition: 'bottom', // Vị trí dấu chấm: bottom hoặc top
+            controlArrows: true,
+            loopHorizontal: false, 
+            scrollHorizontally: true,
 
-        responsiveWidth: 768, // dưới 768px sẽ tự động destroy fullPage.js
+            responsiveWidth: 768, // dưới 768px sẽ tự động destroy fullPage.js
 
-});
+        });
+    }
 </script>
 
 @endsection
