@@ -12,7 +12,7 @@
 
 .section0{
   padding-top: 5rem; min-height:45vh !important;
-  background-position: bottom center; background-size: 100% auto !important; background-repeat: no-repeat; background-image: url(imgs/trang-dau-mobi.png) !important;
+  background-position: bottom center; background-size: 100% auto !important; background-repeat: no-repeat; background-image: url(imgs/trang-dau-mobi.jpg) !important;
 }
 .section0 .img img{ height:80px }
 
@@ -123,5 +123,14 @@ margin: 0 auto; }
 .loithe .custom-next-matbang{ right:0 }
 
 .button-popup{ position:fixed; bottom:2rem; right:2rem; z-index:99999999 }
+
+.main-popup{ width:97% }
+.main-popup .content{ padding:2rem }
+.main-popup .content ul li{ line-height:1.2rem; margin-bottom:.3rem }
+.main-popup .content ul li::after{ top:0 }
+.main-popup .form input{ width:90% }
+.main-popup .form button{ width:60% }
+.main-popup .row{flex-direction: column-reverse; gap:1rem }
+.main-popup .content{ border-radius:0px 0px 20px 20px }
 
 }
