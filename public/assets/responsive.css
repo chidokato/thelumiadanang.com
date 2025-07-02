@@ -11,13 +11,13 @@
 
 
 .section0{
-  padding-top: 2rem; min-height:35vh !important;
+  padding-top: 5rem; min-height:45vh !important;
   background-position: bottom center; background-size: 100% auto !important; background-repeat: no-repeat; background-image: url(imgs/trang-dau-mobi.png) !important;
 }
-.section0 .img img{ height:60px }
+.section0 .img img{ height:80px }
 
-.section1{ padding:2rem; min-height:35vh !important; background-position: bottom center; background-size: 100% auto !important; background-repeat: no-repeat;
-  background-image: url(imgs/trang-2-mobi.jpg) !important; }
+.section1{ padding-top:5rem; min-height:45vh !important; background-position: bottom center; background-size: 100% auto !important; background-repeat: no-repeat;
+  background-image: url(imgs/trang-2-mobi.jpg) !important; padding-left:0 }
 .section1 .img img{ height:100px }
 
 .section2{ padding-top:2rem; min-height:65vh !important; }
@@ -30,6 +30,14 @@
 .mySwiper2 .custom-next, .mySwiper2 .custom-prev {width: 30px;     bottom: 2rem;}
 .mySwiper2 .custom-next{ right:2rem !important }
 .mySwiper2 .custom-prev{ left:2rem !important }
+
+.vitri{
+  height:80vh;
+  background-position: bottom center; background-size: 100% auto !important; background-repeat: no-repeat;
+}
+.row-vitri img{ height:85px }
+.row-vitri{ top:2rem; width:100%; padding:1rem; right:auto; width: fit-content;
+margin: 0 auto; }
 
 .tienich{ padding-top:2rem; min-height:auto !important }
 .marquee-content img{ width:100%; height:auto !important; }
@@ -58,6 +66,7 @@
     display: block;
   }
 
+.matbang{ background-position: bottom center; background-size: auto 100% !important; background-repeat: no-repeat; padding-bottom:3rem }
 .matbang .img img{ width:100% }
 .matbang h2{ margin-top:2rem; font-size:2.4rem }
 .matbang .desc ol li{ line-height:1.4rem }
@@ -70,5 +79,38 @@
 .section7 .section71{ margin:1rem 0 }
 #section8{ height:100vh; background-position: bottom center;     background-image: url(imgs/bg1-mobi.jpg); }
 .section8{ padding-top:3rem }
+
+#section7{ padding:3rem 0; }
+
+.matbang{ padding:3rem 0; }
+
+.loithe{ height:60vh; padding:3rem 0;  }
+
+.loithe::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px; 
+  background: url('imgs/Artboard150.png') no-repeat bottom center;
+  background-size: 100% auto;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

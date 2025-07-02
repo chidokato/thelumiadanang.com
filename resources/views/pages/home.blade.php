@@ -51,7 +51,7 @@
         
     </div>
 
-    <div class="section vitri flex-start" id="section3">
+    <div class="section vitri" id="section3">
         <div class="row-vitri">
             <div class="img"><img src="assets/imgs/vitri-text.png"></div>
             <p>Trái tim của Liên Chiểu - trung tâm phát triển mới của Đà Nẵng, nơi The Lumia Da Nang vươn mình trở thành biểu tượng sống hiện đại, kết nối linh hoạt với cảng biển, sân bay, trung tâm thành phố và khu công nghệ cao như KCN Liên Chiểu và KCN Hoà Khánh mở rộng, hành lang kinh tế liên quốc gia và trung tâm thành phố. Đặc biệt hơn The Lumia Da Nang còn đón đầu quy hoạch của Khu bến Liên Chiểu - Cảng biển chiến lược cho vận tải biển tại khu vực Đông Nam Á.</p>
@@ -293,17 +293,17 @@
     <div class="section loithe" id="section10">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 loithe1">
+                <div class="col-md-4 loithe1 col-6">
                     <div class="">
                         <div class="img"><img class="width120" src="assets/imgs/Artboard68.png"></div>
                     </div>
                 </div>
-                <div class="col-md-4 loithe1">
+                <div class="col-md-4 loithe1 col-6">
                     <div class="">
                         <div class="img"><img src="assets/imgs/Artboard71.png"></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-12">
                     <div class="matbang1">
                         <div class="swiper Swiper-matbang">
                             <div class="swiper-wrapper">
