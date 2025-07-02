@@ -82,3 +82,21 @@ var swiper = new Swiper(".Swiper-matbang", {
     nextEl: ".custom-next-matbang",
   },
 });
+
+
+const button = document.querySelector('.button-popup');
+const popup = document.querySelector('.main-popup');
+const overlay = document.querySelector('.popup-overlay');
+
+button.addEventListener('click', function(e) {
+  e.preventDefault();
+  popup.classList.toggle('active');
+  overlay.classList.toggle('active');
+});
+
+// Bấm overlay để đóng popup
+overlay.addEventListener('click', function() {
+  popup.classList.remove('active');
+  overlay.classList.remove('active');
+});
+
