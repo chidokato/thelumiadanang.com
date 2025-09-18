@@ -76,13 +76,13 @@
         </div>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"> <div class="thumb thumb1"></div> </div>
-                <div class="swiper-slide"> <div class="thumb thumb2"></div> </div>
-                <div class="swiper-slide"> <div class="thumb thumb3"></div> </div>
-                <div class="swiper-slide"> <div class="thumb thumb4"></div> </div>
-                <div class="swiper-slide"> <div class="thumb thumb5"></div> </div>
-                <div class="swiper-slide"> <div class="thumb thumb6"></div> </div>
-                <div class="swiper-slide"> <div class="thumb thumb7"></div> </div>
+                <div class="swiper-slide"> <div class="test-sub">Bãi biển Xuân Thiều</div> <div class="thumb thumb1"></div>  </div>
+                <div class="swiper-slide"> <div class="test-sub">Khách sạn Moskva</div> <div class="thumb thumb2"></div> </div>
+                <div class="swiper-slide"> <div class="test-sub">Hani Glamping</div> <div class="thumb thumb3"></div> </div>
+                <div class="swiper-slide"> <div class="test-sub">Công viên nước Mikayuki</div><div class="thumb thumb4"></div> </div>
+                <div class="swiper-slide"> <div class="test-sub">Cảng Quốc Tế Liên Chiểu</div><div class="thumb thumb5"></div> </div>
+                <div class="swiper-slide"> <div class="test-sub">Sân bay Quốc tế Đà Nẵng</div><div class="thumb thumb6"></div> </div>
+                <div class="swiper-slide"> <div class="test-sub">Trung tâm TP. Đà Nẵng</div><div class="thumb thumb7"></div> </div>
             </div>
         </div>
     </div>

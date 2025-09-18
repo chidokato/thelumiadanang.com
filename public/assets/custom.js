@@ -42,9 +42,9 @@ var swiper = new Swiper(".mySwiper", {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 3,
-    centeredSlides: true, // để active ở giữa
-    slideToClickedSlide: true, // click là canh giữa
-    watchSlidesProgress: true
+    // centeredSlides: true, // để active ở giữa
+    // slideToClickedSlide: true, // click là canh giữa
+    // watchSlidesProgress: true
 });
 
 var swiper2 = new Swiper(".mySwiper2", {
