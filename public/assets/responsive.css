@@ -1,5 +1,5 @@
 @media (max-width: 767px) {
-
+.bg-menuleft{ display:none; }
 .container{ max-width:100% }
 
 .fp-section {

@@ -403,11 +403,12 @@
                     <div class="title-gradient mt-5"> ĐĂNG KÝ NHẬN TƯ VẤN </div>
                     <hr class="line1">
                     <hr class="line2">
-                    <form class="main-form">
-                        <div class="form">
-                            <input type="" name="" placeholder="Họ & tên *">
-                            <input type="" name="" placeholder="Số điện thoại *">
-                            <input type="" name="" placeholder="Địa chỉ email *">
+                    <form class="main-form" id="validateForm" method="post" action="question">
+                        @csrf
+                        <div class="form" >
+                            <input type="text" name="name" placeholder="Họ & tên *">
+                            <input type="text" name="phone" placeholder="Số điện thoại *">
+                            <input type="text" name="email" placeholder="Địa chỉ email *">
                             <button type="submit">ĐĂNG KÝ</button>
                         </div>
                     </form>
