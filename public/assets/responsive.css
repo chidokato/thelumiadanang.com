@@ -1,7 +1,7 @@
 @media (max-width: 767px) {
 .bg-menuleft{ display:none; }
 .container{ max-width:100% }
-
+.test-sub{ display:none; }
 .fp-section {
   min-height: auto !important;
   height: auto !important;
@@ -103,7 +103,7 @@ margin: 0 auto; }
 }
 
 .tintuc .col-md-3 .img{ height:125px; }
-.tintuc .col-md-3 img{ height:160% }
+.tintuc .col-md-3 img{ height:235px }
 .tintuc .col-md-3 .img {justify-content: center;}
 
 .tintuc .col-md-4 img{ height:40vh } 
@@ -133,4 +133,16 @@ margin: 0 auto; }
 .main-popup .row{flex-direction: column-reverse; gap:1rem }
 .main-popup .content{ border-radius:0px 0px 20px 20px }
 
+.lienketvung .thumb {
+    width: 50px;
+    height: 50px;}
+.lienketvung .thumb1, .lienketvung .thumb2, .lienketvung .thumb3, .lienketvung .thumb4, .lienketvung .thumb5, .lienketvung .thumb6, .lienketvung .thumb7{     background-size: 50px; }
+.lienketvung .thumb1:hover,
+.lienketvung .thumb2:hover,
+.lienketvung .thumb3:hover,
+.lienketvung .thumb4:hover,
+.lienketvung .thumb5:hover,
+.lienketvung .thumb6:hover,
+.lienketvung .thumb7:hover{ background-size: 50px; }
+.mySwiper {height: 19%;}
 }
