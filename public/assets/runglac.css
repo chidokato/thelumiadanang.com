@@ -206,7 +206,7 @@ background: linear-gradient(
   .zalo-ring-wrap .hotline-phone-ring-circle-fill, .form-ring-wrap .hotline-phone-ring-circle-fill{ display:none; }
   .hotline-bar{ background:none; bottom:0; left:0; box-shadow: none; }
   .zalo-ring-wrap .hotline-bar, .form-ring-wrap .hotline-bar{ background:none; left:48%; transform: translate(-50%, 0%); bottom: -38px; padding:0px }
-  .zalo-ring-wrap .hotline-bar a, .form-ring-wrap .hotline-bar a{ color:#000; }
+  .zalo-ring-wrap .hotline-bar a, .form-ring-wrap .hotline-bar a{ color:#fff; }
   .zalo-ring-wrap .hotline-phone-ring-img-circle, .form-ring-wrap .hotline-phone-ring-img-circle{ border: 1px solid #000; animation: none; }
   .hotline-bar > a{ text-indent: inherit; font-size: .7rem; }
 
