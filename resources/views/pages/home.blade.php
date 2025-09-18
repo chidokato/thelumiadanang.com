@@ -449,6 +449,15 @@
 
         });
     }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('#fp-nav ul li .fp-tooltip').forEach(function (el, index) {
+            el.style.cursor = 'pointer'; // đổi chuột thành pointer
+            el.addEventListener('click', function () {
+                fullpage_api.moveTo(index + 1); // chuyển tới section theo index
+            });
+        });
+    });
 </script>
 
 @endsection

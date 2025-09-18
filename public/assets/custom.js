@@ -1,5 +1,6 @@
 
 
+
 const sectionsWithSlider = [
   document.querySelector('#section5'),
   document.querySelector('#section7')

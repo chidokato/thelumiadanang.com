@@ -2,19 +2,18 @@
 	background: white;
 }
 
-/*#fp-nav ul li, .fp-slidesNav ul li {
-    margin: 25px;
-}
-
 #fp-nav ul li .fp-tooltip {
     top: -5px;
     opacity: 1;
     width: auto;
-}*/
-
-#fp-nav ul li .fp-tooltip {
-    top: -5px;
 }
+
+#fp-nav .fp-tooltip {
+  pointer-events: auto;
+  display: inline-block;
+  cursor: pointer;
+}
+#fp-nav ul li { margin: 30px 0; }   /* khoảng cách giữa các chấm */
 
 #section0,
 #section1,
