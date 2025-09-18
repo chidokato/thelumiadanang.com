@@ -359,7 +359,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="img"><img class="rotate90" src="assets/imgs/Artboard103.png"></div>
+                    <div class="img"><a href="tin-tuc"><img class="rotate90" src="assets/imgs/Artboard103.png"></a></div>
                 </div>
                 <div class="col-md-4">
                     <div class="img tintuc1">
