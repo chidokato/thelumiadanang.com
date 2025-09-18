@@ -39,11 +39,12 @@
                     <li>Chiết khấu 8% cho khách hàng thanh toán sớm từng đợt</li>
                     <li>Chiết khấu tới 7% cho khách hàng thanh toán sớm</li>
                 </ul>
-                <form class="form">
-                    <input type="" name="" placeholder="Họ và tên *">
-                    <input type="" name="" placeholder="Số điện thoại *">
-                    <input type="" name="" placeholder="Địa chỉ email *">
-                    <button>ĐĂNG KÝ</button>
+                <form class="form" id="validateForm" method="post" action="question">
+                    @csrf
+                    <input type="text" name="name" placeholder="Họ và tên *">
+                    <input type="text" name="phone" placeholder="Số điện thoại *">
+                    <input type="text" name="mail" placeholder="Địa chỉ email *">
+                    <button type="submit">TẢI XUỐNG</button>
                 </form>
             </div>
         </div>
