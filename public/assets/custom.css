@@ -348,7 +348,7 @@
 }
 .loithe .Swiper-matbang .swiper-slide{ display:flex;    flex-direction: column;
     align-items: flex-start; }
-.loithe .Swiper-matbang .swiper-slide h4{ color:#fff; font-size:1.8rem }
+.loithe .Swiper-matbang .swiper-slide h4{ color:#fff; font-size:1.6rem; text-align:left; }
 .loithe .Swiper-matbang .swiper-slide p{ font-size:1rem; text-align:justify; }
 .loithe .loithe1{ display:flex;align-items: center; }
 .loithe {
