@@ -423,7 +423,7 @@
 <script>
     if (window.innerWidth > 768) {
         var myFullpage = new fullpage('#fullpage', {
-            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+            // sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
             anchors: [
                 @foreach($menu as $val)
                 '{{$val->slug}}',

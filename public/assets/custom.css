@@ -186,19 +186,19 @@
 
 
 .lienketvung .thumb{ width: 120px; height:120px; background:#fff; margin:0 auto; border-radius:100% }
-.lienketvung .thumb1{ background:url(imgs/lienketvung/10phut.png); background-size:120px }
+.lienketvung .thumb1{ background:url(imgs/lienketvung/5phut.png); background-size:120px }
 .lienketvung .thumb1:hover{ background:url(imgs/lienketvung/thum1.png); background-size:120px }
 .lienketvung .thumb2{ background:url(imgs/lienketvung/5phut.png); background-size:120px }
 .lienketvung .thumb2:hover{ background:url(imgs/lienketvung/thum2.png); background-size:120px }
-.lienketvung .thumb3{ background:url(imgs/lienketvung/15phut.png); background-size:120px }
+.lienketvung .thumb3{ background:url(imgs/lienketvung/10phut.png); background-size:120px }
 .lienketvung .thumb3:hover{ background:url(imgs/lienketvung/thum3.png); background-size:120px }
-.lienketvung .thumb4{ background:url(imgs/lienketvung/5phut.png); background-size:120px }
+.lienketvung .thumb4{ background:url(imgs/lienketvung/10phut.png); background-size:120px }
 .lienketvung .thumb4:hover{ background:url(imgs/lienketvung/thum4.png); background-size:120px }
-.lienketvung .thumb5{ background:url(imgs/lienketvung/5phut.png); background-size:120px }
+.lienketvung .thumb5{ background:url(imgs/lienketvung/10phut.png); background-size:120px }
 .lienketvung .thumb5:hover{ background:url(imgs/lienketvung/thum5.png); background-size:120px }
-.lienketvung .thumb6{ background:url(imgs/lienketvung/5phut.png); background-size:120px }
+.lienketvung .thumb6{ background:url(imgs/lienketvung/15phut.png); background-size:120px }
 .lienketvung .thumb6:hover{ background:url(imgs/lienketvung/thum6.png); background-size:120px }
-.lienketvung .thumb7{ background:url(imgs/lienketvung/5phut.png); background-size:120px }
+.lienketvung .thumb7{ background:url(imgs/lienketvung/15phut.png); background-size:120px }
 .lienketvung .thumb7:hover{ background:url(imgs/lienketvung/thum7.png); background-size:120px }
 
 .lienketvung .swiper-slide{ opacity: 1 !important;  }
