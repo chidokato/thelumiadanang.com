@@ -13,6 +13,8 @@
 
 @section('content')
 
+<div class="bg-menuleft"></div>
+
 <div id="fullpage">
     <div class="section section0 flex-start" id="section0">
         <div class="img mb-3">

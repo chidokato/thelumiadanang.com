@@ -133,7 +133,6 @@ class HomeController extends Controller
             }
         }
         
-        
     }
 
     public function post($catslug, $slug)
@@ -155,7 +154,6 @@ class HomeController extends Controller
         }
         
     }
-
 
     public function sitemap()
     {

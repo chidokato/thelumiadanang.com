@@ -4,7 +4,7 @@
 
 #fp-nav ul li .fp-tooltip {
     top: -5px;
-    opacity: 1;
+    opacity: .8;
     width: auto;
 }
 
@@ -18,6 +18,14 @@
 #fp-nav ul li:hover .fp-tooltip, #fp-nav.fp-show-active a.active + .fp-tooltip {
     font-weight: bold;
 }
+
+.bg-menuleft{ position:fixed; height:100vh; width:200px;
+background: linear-gradient(
+    to right, 
+    #040f49 0%,       /* màu đặc ở bên trái */
+    rgba(4, 15, 73, 0) 100%  /* trong suốt ở bên phải */
+);
+  z-index:9 }
 
 #section0,
 #section1,
