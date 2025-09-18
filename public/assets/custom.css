@@ -15,6 +15,10 @@
 }
 #fp-nav ul li { margin: 30px 0; }   /* khoảng cách giữa các chấm */
 
+#fp-nav ul li:hover .fp-tooltip, #fp-nav.fp-show-active a.active + .fp-tooltip {
+    font-weight: bold;
+}
+
 #section0,
 #section1,
 #section2,
