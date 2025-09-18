@@ -76,13 +76,13 @@
         </div>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="assets/imgs/lienketvung/thumb1.png" /></div>
-                <div class="swiper-slide"><img src="assets/imgs/lienketvung/thumb2.png" /></div>
-                <div class="swiper-slide"><img src="assets/imgs/lienketvung/thumb3.png" /></div>
-                <div class="swiper-slide"><img src="assets/imgs/lienketvung/thumb4.png" /></div>
-                <div class="swiper-slide"><img src="assets/imgs/lienketvung/thumb5.png" /></div>
-                <div class="swiper-slide"><img src="assets/imgs/lienketvung/thumb6.png" /></div>
-                <div class="swiper-slide"><img src="assets/imgs/lienketvung/thumb7.png" /></div>
+                <div class="swiper-slide"> <div class="thumb thumb1"></div> </div>
+                <div class="swiper-slide"> <div class="thumb thumb2"></div> </div>
+                <div class="swiper-slide"> <div class="thumb thumb3"></div> </div>
+                <div class="swiper-slide"> <div class="thumb thumb4"></div> </div>
+                <div class="swiper-slide"> <div class="thumb thumb5"></div> </div>
+                <div class="swiper-slide"> <div class="thumb thumb6"></div> </div>
+                <div class="swiper-slide"> <div class="thumb thumb7"></div> </div>
             </div>
         </div>
     </div>
