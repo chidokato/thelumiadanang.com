@@ -1,4 +1,32 @@
-<a class="button-popup" href=""><img src="assets/imgs/button-popup.png"></a>
+<!-- <a class="button-popup" href=""><img src="assets/imgs/button-popup.png"></a> -->
+
+<div class="hotline-phone-ring-wrap form-ring-wrap button-popup">
+    <div class="hotline-phone-ring ">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle click_popup">
+            <a href="javascript:void(0)" class="pps-btn-img">
+                <img src="assets/imgs/dowload.png" alt="Gọi điện thoại" width="50">
+            </a>
+        </div>
+        <div class="hotline-bar click_popup">
+            <a href="javascript:void(0)">
+                <span class="text-hotline">TẢI BẢNG GIÁ</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const urlInput = document.getElementById("current-url");
+        if (urlInput) {
+            urlInput.value = window.location.href;
+        }
+    });
+</script>
+
+
 <div class="popup-overlay"></div>
 <div class="main-popup">
     <div class="row">
