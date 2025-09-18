@@ -312,12 +312,39 @@
                                     <p>Toạ lạc tại khu vực cảng chiến lược Liên Chiểu – cửa ngõ giao thương quốc tế của miền Trung, dễ dàng kết nối với trung tâm Đà Nẵng, sân bay quốc tế, cảng biển và các trục giao thông trọng điểm.</p>
                                 </div>
                                 <div class="swiper-slide">
-                                    <h4>2. Vị trí độc tôn – Kết nối toàn diện</h4>
-                                    <p>Toạ lạc tại khu vực cảng chiến lược Liên Chiểu – cửa ngõ giao thương quốc tế của miền Trung, dễ dàng kết nối với trung tâm Đà Nẵng, sân bay quốc tế, cảng biển và các trục giao thông trọng điểm.</p>
+                                    <h4>2. Đón đầu quy hoạch – Tâm điểm phát triển Tây Bắc Đà Nẵng</h4>
+                                    <p>Nằm giữa vùng động lực phát triển mới – gần KCN Hòa Khánh và Khu công nghệ cao Liên Chiểu, dự án là điểm đến lý tưởng cho cộng đồng chuyên gia, kỹ sư và cư dân dịch chuyển về Tây Bắc.</p>
                                 </div>
                                 <div class="swiper-slide">
-                                    <h4>3. Vị trí độc tôn – Kết nối toàn diện</h4>
-                                    <p>Toạ lạc tại khu vực cảng chiến lược Liên Chiểu – cửa ngõ giao thương quốc tế của miền Trung, dễ dàng kết nối với trung tâm Đà Nẵng, sân bay quốc tế, cảng biển và các trục giao thông trọng điểm.</p>
+                                    <h4>3. Quy hoạch đồng bộ, chuẩn mực đầu tiên tại Đà Nẵng</h4>
+                                    <p>The Lumia là dự án tiên phong sở hữu quy hoạch tổng thể bài bản, hệ thống hạ tầng, tiện ích, cảnh quan được đầu tư đồng bộ, định hình chuẩn sống đô thị mới.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>4. Tổ hợp tiện ích Live – Work – Play hoàn chỉnh</h4>
+                                    <p>Cư dân được tận hưởng hệ sinh thái sống toàn diện: không gian xanh, công viên, khu làm việc sáng tạo, tiện ích giải trí – thương mại – dịch vụ, đồng thời là điểm đến hấp dẫn du lịch.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>5. Mô hình Home2Hub compound thấp tầng độc đáo</h4>
+                                    <p>Lần đầu ra mắt tại Đà Nẵng: mô hình nhà ở thấp tầng đa năng – vừa ở vừa khai thác thương mại, bàn giao đầy đủ nội thất, cam kết vận hành và khai thác cho thuê hiệu quả.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>6. Khả năng khai thác & gia tăng giá trị bền vững</h4>
+                                    <p>Thiết kế tối ưu công năng, phục vụ đa dạng nhu cầu an cư – đầu tư – cho thuê, đón đầu dòng tiền và nhu cầu thuê từ chuyên gia, kỹ sư, người lao động trình độ cao tại khu vực.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>7. Cộng đồng dân cư hiện hữu, tiềm năng lấp đầy cao</h4>
+                                    <p>Nằm sát cạnh khu đô thị đông dân, hạ tầng kết nối mạnh mẽ với 2 cây cầu tương lai bắc qua khu đô thị Bầu Tràm và 10 tòa NOXH, gia tăng giá trị sinh lời và bảo chứng cho khả năng lấp đầy.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>8. Dấu ấn kiến tạo “thành phố ánh sáng” bên bến cảng phồn hoa</h4>
+                                    <p>Không chỉ là nơi an cư, The Lumia kiến tạo biểu tượng mới tại Tây Bắc Đà Nẵng – một đô thị hiện đại, năng động, đẳng cấp, thu hút cộng đồng tinh hoa và khách du lịch khắp nơi.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>9. Khu đô thị đáng sống bậc nhất</h4>
+                                    <p>Cư dân của The Lumia Da Nang được hưởng trọn vẹn không gian sống xanh trong lành, nhịp sống sôi động 24/7 cùng tiềm năng vượt bậc của khu Liên Chiểu.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>10. Kiến tạo bởi những đơn vị uy tín hàng đầu</h4>
                                 </div>
                             </div>
                         </div>
