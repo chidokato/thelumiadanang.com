@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-7">
             <div class="content">
-                <div class="img"><img src="assets/imgs/Artboard134.png"></div>
+                <div class="img"><img src="assets/imgs/wweb-lumia-tách.png"></div>
                 <ul>
                     <li>Chiết khấu 2% cho khách hàng booking sớm</li>
                     <li>Chiết khấu 1% cho khách hàng mua từ 2 căn trở lên</li>
