@@ -406,8 +406,8 @@
                     <form class="main-form" id="validateForm" method="post" action="question">
                         @csrf
                         <div class="form" >
-                            <input type="text" name="name" placeholder="Họ & tên *">
-                            <input type="text" name="phone" placeholder="Số điện thoại *">
+                            <input required type="text" name="name" placeholder="Họ & tên *">
+                            <input required type="text" name="phone" placeholder="Số điện thoại *">
                             <input type="text" name="email" placeholder="Địa chỉ email *">
                             <button type="submit">ĐĂNG KÝ</button>
                         </div>
