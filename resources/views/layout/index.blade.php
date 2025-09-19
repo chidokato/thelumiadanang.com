@@ -59,6 +59,17 @@
     b.src = "//deqik.com/tag/corejs/" + e + ".js"; a.parentNode.insertBefore(b, a)
     })(window, document, "script", "atmDataLayer", "ATMMKHNG86M91");</script>
     <!-- End Admicro Tag Manager -->
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X04YXSYSTF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-X04YXSYSTF');
+    </script>
     
 </head>
 
