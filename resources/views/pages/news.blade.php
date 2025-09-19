@@ -5,76 +5,54 @@
 @section('robots') index, follow @endsection
 @section('url'){{asset('')}}@endsection
 @section('css')
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/news.css" />
 @endsection
+
 @section('content')
 
-<!--breadcrumb area start-->
-<section class="breadcrumb-area bg-primary-gradient">
-    <div class="container">
-        <div class="breadcrumb-content text-center">
-            <h2 class="mb-3">{{$data->name}}</h2>
-            <nav>
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{asset('')}}">Home</a></li>
-                    <li class="breadcrumb-item active">{{$data->name}}</li>
-                </ol>
-            </nav>
-        </div>
+
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">TIN TỨC</h1>
+        <p>
+          <a href="{{ asset('') }}" class="btn btn-primary my-2 bg072450">Trang chủ</a>
+        </p>
+      </div>
     </div>
-</section>
-<!--breadcrumb area end-->
+  </section>
 
 
-<section class="hm-blog-grids pt-100 pb-100 overflow-hidden">
+
+  <div class="album py-5 bg-light news">
     <div class="container">
-        <div class="row g-5">
-            <div class="col-xl-12">
-                <div class="hm-blog-grid-left">
-                    <div class="row g-4">
-                        @foreach($posts as $val)
-                        <div class="col-md-4">
-                            <div class="hm2-blog-card bg-white deep-shadow">
-                                <div class="feature-img rounded-top overflow-hidden">
-                                    <a href="{{$val->category->slug}}/{{$val->slug}}"><img src="data/images/{{$val->img}}" alt="feature" class="img-fluid img250"></a>
-                                </div>
-                                <div class="hm2-blog-card-content position-relative">
-                                    <a href="{{$val->category->slug}}" class="tag-btn rounded-pill position-absolute">{{$val->category->name}}</a>
-                                    <a href="{{$val->category->slug}}/{{$val->slug}}">
-                                        <h3 class="h5 mb-3 text-truncate-set text-truncate-set-2">{{$val->name}}</h3>
-                                    </a>
-                                    <p class="text-truncate-set text-truncate-set-3">{{$val->detail}}</p>
-                                    <hr class="spacer mt-20 mb-20">
-                                    <div class="bog-author d-flex align-items-center justify-content-between">
-                                        <div class="d-inline-flex align-items-center">
-                                            <img src="assets/img/home2/client-1.png" alt="author" class="img-fluid rounded-circle">
-                                            <h6 class="ms-2 mb-0">{{$val->User->yourname}}</h6>
-                                        </div>
-                                        <span class="date">{{date_format($val->updated_at,"d/m/Y")}}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        @endforeach
-                        
-                    </div>
-                    <!-- <div class="template-pagination mt-60">
-                        <ul class="d-flex align-items-center">
-                            <li><a href="#" class="active">01</a></li>
-                            <li><a href="#">02</a></li>
-                            <li><a href="#">03</a></li>
-                            <li><a href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
-                        </ul>
-                    </div> -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        @foreach($posts as $val)
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="img"><a href="{{ $val->category->slug }}/{{ $val->slug }}"> <img src="data/images/{{ $val->img }}"> </a> </div>
+            <div class="card-body">
+              <h2 class="card-text"><a href="{{ $val->category->slug }}/{{ $val->slug }}">{{ $val->name }}</a></h2>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{{ $val->category->slug }}/{{ $val->slug }}"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
                 </div>
+                <small class="text-muted">{{date_format($val->updated_at,"d/m/Y")}}</small>
+              </div>
             </div>
-            
+          </div>
         </div>
+        @endforeach
+        
+      </div>
     </div>
-</section>
+  </div>
+
+
 
 @endsection
 
 @section('script')
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 @endsection

@@ -77,9 +77,9 @@
     <div class="body-overlay"></div>
     <div class="main-wrapper">
 
-    @include('layout.header')
-    @yield('content')
-    @include('layout.footer')
+        @include('layout.header')
+        @yield('content')
+        @include('layout.footer')
     
     </div>
 
