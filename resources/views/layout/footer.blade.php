@@ -41,8 +41,8 @@
                 </ul>
                 <form class="form" id="validateForm" method="post" action="question">
                     @csrf
-                    <input type="text" name="name" placeholder="Họ và tên *">
-                    <input type="text" name="phone" placeholder="Số điện thoại *">
+                    <input required type="text" name="name" placeholder="Họ và tên *">
+                    <input required type="text" name="phone" placeholder="Số điện thoại *">
                     <input type="text" name="email" placeholder="Địa chỉ email *">
                     <button type="submit">TẢI XUỐNG</button>
                 </form>
