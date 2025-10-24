@@ -427,7 +427,7 @@ background: linear-gradient(
   left: 0;
   width: 100%;
   height: 100%;
-  background: #00000082; /* màu đen mờ, chỉnh opacity ở đây */
+  background: #00000033; /* màu đen mờ, chỉnh opacity ở đây */
 }
 
 .tintuc1{ position:relative; }
