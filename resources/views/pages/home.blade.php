@@ -363,26 +363,20 @@
                 <div class="col-md-3">
                     <div class="img"><a href="tin-tuc"><img class="rotate90" src="assets/imgs/Artboard103.png"></a></div>
                 </div>
+                @foreach($posts as $val)
                 <div class="col-md-4">
+                    <a style="color:#fff" href="{{$val->category->slug}}/{{$val->slug}}">
                     <div class="img tintuc1">
-                        <img class="w-100" src="assets/imgs/khaichuongvpbh.jpg">
-                        <h3 class="tintuc11">Những công trình hạ tầng đón đầu quy hoạch Thành Phố Đà Nẵng</h3>
+                        <img class="w-100" src="data/images/{{$val->img}}">
+                        <h3 class="tintuc11">{{$val->name}}</h3>
                         <div class="date-text tintuc11">
-                            <div class="ngay">27</div>
-                            <div class="thang">Tháng 06</div>
+                            <div class="ngay">{{date('d',strtotime($val->created_at))}}</div>
+                            <div class="thang">Tháng {{date('m',strtotime($val->created_at))}}</div>
                         </div>
                     </div>
+                    </a>
                 </div>
-                <div class="col-md-4">
-                    <div class="img tintuc1">
-                        <img class="w-100" src="assets/imgs/anhleraquan.jpg">
-                        <h3 class="tintuc11">Những công trình hạ tầng đón đầu quy hoạch Thành Phố Đà Nẵng</h3>
-                        <div class="date-text tintuc11">
-                            <div class="ngay">27</div>
-                            <div class="thang">Tháng 06</div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>
